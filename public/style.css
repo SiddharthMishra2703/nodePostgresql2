@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+.center {
+    @media only screen and (min-width: 768px) {
+        width: 30%;
+    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center2 {
+    @media only screen and (min-width: 768px) {
+        width: 30%;
+    }
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.width{
+    @media only screen and (min-width: 768px) {
+        margin: 0px 60px;
+        text-align: center;
+    }
+}
+.align{
+    display: flex;
+    justify-content: center;
+}
+.align input{
+    margin: 10px;
+}
